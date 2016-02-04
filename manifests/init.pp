@@ -1,5 +1,6 @@
 class wordpress
 {
+$version = 5.6.6
 	package{'wordpress':
 	ensure => installed,
 	}
